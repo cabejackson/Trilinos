@@ -67,7 +67,7 @@ SET(Trilinos_ENABLE_DEVELOPMENT_MODE_DEFAULT OFF) # Change to 'OFF' for a releas
 
 # Used by testing scripts and should not be used elsewhere
 SET(Trilinos_REPOSITORY_BRANCH "trilinos-release-14-4-branch" CACHE INTERNAL "")
-SET(Trilinos_EXTRAREPOS_BRANCH "trilinos-release-14-4-branch" CACHE INTERNAL "")
+SET(Trilinos_EXTRAREPOS_BRANCH "master" CACHE INTERNAL "")
 SET(Trilinos_TESTING_TRACK "" CACHE INTERNAL "")
 
 # NOTE: Above, the extra repos for Trilinos don't have a 'develop' branch yet
